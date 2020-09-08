@@ -1,0 +1,11 @@
+Construcción de Motores (Engine Building)
+En estos juegos comienzas con recursos muy limitados, y debes ingeniártelas para construir un sistema que te permita producir más recursos, para así lograr sistemas más eficientes, que generen aún más recursos, para luego invertirlos en sistemas más eficientes...
+Estos juego premian al final del juego a quien más recursos haya acumulado o sea capaz de producir, e incluso permiten "comprar puntos" a lo largo de la partida, decisión importante que deben tomar les jugadores. ¿En que momento dejo de comprar máquinas de recursos y comienzo a invertir en puntos?
+Algunos ejemplos: Orleans, 
+
+Armado de grupos (Set Collection)
+Estos juegos consisten en una variedad de tipos de objetos que podemos adquirir o comerciar, ya sea con les demás o con el mismo juego. El juego recompensa con puntos a quienes logren formar determinados conjuntos, ya sea exigiendo una variedad particular de objetos (1 del rojo, 2 del azul, 4 del amarillo), o por acumular tanto como sea posible de un tipo (tantas pociones rojas como puedas)
+La dificultad suele residir en que aquellas cosas que más puntos dan, escasean, o que debemos competir con el resto para obtenerlas.
+Algunos ejemplos: Sobek, 
+
+

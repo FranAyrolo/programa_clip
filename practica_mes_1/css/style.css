@@ -1,0 +1,59 @@
+h1 {
+    align-content: center;
+    text-align: center;
+    font-weight: 600;
+    
+    background: #B8860B;
+    
+}
+
+img {
+    
+}
+
+.my_nav {
+    align-content: center;
+    background: yellow;
+}
+
+button {
+    
+}
+
+.nav_button {
+    border-radius: 10px;
+    background: #006400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.footer{
+  background: #152F4F;
+  color:white;
+  
+  .links{
+    ul {list-style-type: none;}
+    li a{
+      color: white;
+      transition: color .2s;
+      &:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+    }
+  }  
+.footer-about{
+    i{font-size: 25px;}
+    a{
+      color:white;
+      transition: color .2s;
+      &:hover{color:#4180CB}
+    }
+  } 
+.contact-info{
+    i{font-size: 18px;}
+  }
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+}
