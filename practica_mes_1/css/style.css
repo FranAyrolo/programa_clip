@@ -1,15 +1,39 @@
+body {
+    background-image: url("https://wallpaperaccess.com/full/273320.jpg");
+}
+
 h1 {
     align-content: center;
     text-align: center;
     font-weight: 600;
-    
     background: #B8860B;
     
 }
 
-img {
-    
+p {
+    text-align: justify;
 }
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  color: red;
+  font-family: helvetica;
+  text-decoration: none;
+}
+a:link {
+    color:black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: black;
+}
+
 
 .my_nav {
     align-content: center;
@@ -29,13 +53,20 @@ button {
     padding-left: 20px;
 }
 
+.main-articles {
+    background: #E0F8EF;
+}
+
+
+
+
 .footer{
   background: #152F4F;
   color:white;
   
   .links{
     ul {list-style-type: none;}
-    li a{
+    li {
       color: white;
       transition: color .2s;
       &:hover{
@@ -44,16 +75,17 @@ button {
         }
     }
   }  
+
 .footer-about{
-    i{font-size: 25px;}
-    a{
+    {font-size: 25px;}
+    {
       color:white;
       transition: color .2s;
       &:hover{color:#4180CB}
     }
   } 
 .contact-info{
-    i{font-size: 18px;}
+    {font-size: 18px;}
   }
   .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
 }
