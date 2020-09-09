@@ -1,5 +1,9 @@
 body {
-    background-image: url("https://wallpaperaccess.com/full/273320.jpg");
+    background-image: url("http://yesofcorsa.com/wp-content/uploads/2018/01/Board-Games-Wallpaper-High-Definition.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
@@ -7,7 +11,6 @@ h1 {
     text-align: center;
     font-weight: 600;
     background: #B8860B;
-    
 }
 
 p {
@@ -15,8 +18,8 @@ p {
 }
 
 img {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
 a {
@@ -25,13 +28,13 @@ a {
   text-decoration: none;
 }
 a:link {
-    color:black;
+    color: #DAA520;
 }
 a:visited {
-    color: black;
+    color: #DAA520;
 }
 a:hover {
-    color: black;
+    color: #DAA520;
 }
 
 
@@ -46,7 +49,7 @@ button {
 
 .nav_button {
     border-radius: 10px;
-    background: #006400;
+    background: #87CEFA;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 20px;
