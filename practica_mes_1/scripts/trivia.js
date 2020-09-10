@@ -11,7 +11,7 @@ function trivia() {
         "Última pista, podés encontrarlo en algún lado de la página inicial, medio escondido ;)"
     ]
     
-    player_name = prompt("Primero, decinos tu nombre :)\ņ");
+    player_name = prompt("Primero, decinos tu nombre :)\n");
 
     while (!guessed && attempts > 0) {
         player_guess = prompt("¿Cuál es tu respuesta?");
@@ -20,7 +20,7 @@ function trivia() {
             alert("¡Felicitaciones! ¿Adivinaste bien, o ya la sabías?");
             guessed = true;
         } else {
-            alert("Nop, esa no es. Te dejo una pista:\n" + clues[4 - attempts]);
+            alert("Nop, esa no es.\nTe quedan " + (attempts-1) + " intentos\nPista:\n" + clues[4 - attempts]);
             attempts--;
         }        
     }
