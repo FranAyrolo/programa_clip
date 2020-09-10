@@ -11,12 +11,19 @@
   </head>
   
   <body>
+      
+    <header> 
+        <h1 style="font-size:70px"><span> Suscríbete al Newsletter </span></h1>
+    </header>
+
 
     <div class="container">
-    <form class="form-inline" action="#">
+    <form class="form-inline was-validated" action="#">
         <div class="row col-md-12">
             <label for="name" class="mr-sm-2" style="color:white">Nombre: </label>
             <input type="name" class="form-control mb-2 mr-sm-2" placeholder="Ingresa tu nombre" id="name">
+            <div class="valid-feedback">Ok</div>
+            <div class="invalid-feedback">* El formato de email debe ser "ejemplo@gmail.com</div>
         </div>
         <div class="row col-md-12">
             <label for="last-name" class="mr-sm-2" style="color:white">Apellido: </label>
