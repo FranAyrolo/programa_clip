@@ -21,27 +21,33 @@
     <form class="form-inline was-validated" action="#">
         <div class="row col-md-12">
             <label for="name" class="mr-sm-2" style="color:white">Nombre: </label>
-            <input type="name" class="form-control mb-2 mr-sm-2" placeholder="Ingresa tu nombre" id="name">
+            <input type="name" class="form-control mb-2 mr-sm-2" placeholder="Ingresa tu nombre" id="name" required>
             <div class="valid-feedback">Ok</div>
-            <div class="invalid-feedback">* El formato de email debe ser "ejemplo@gmail.com</div>
+            <div class="invalid-feedback"><span> Este cambio es obligatorio </span></div>
         </div>
         <div class="row col-md-12">
             <label for="last-name" class="mr-sm-2" style="color:white">Apellido: </label>
-            <input type="last-name" class="form-control mb-2 mr-sm-2" placeholder="Ingresa tu apellido" id="last-name">
+            <input type="last-name" class="form-control mb-2 mr-sm-2" placeholder="Ingresa tu apellido" id="last-name" required>
+            <div class="valid-feedback">Ok</div>
+            <div class="invalid-feedback"><span> Este cambio es obligatorio </span></div>
         </div>
         <div class="row col-md-12">
             <label for="email" class="mr-sm-2 pl-2" style="color:white">E-mail: </label>
-            <input type="email" class="form-control mb-2 mr-sm-2" placeholder="Enter email" id="email">        
+            <input type="email" class="form-control mb-2 mr-sm-2" placeholder="Ingresa tu email" id="email" required>
+            <div class="valid-feedback">Ok</div>
+            <div class="invalid-feedback"><span> El mail debe ser de la forma ejemplo@server.com </span></div>
         </div>
         <div class="form-check mb-2 mr-sm-2">
-            <label class="form-check-label" style="color:white">
-            <input class="form-check-input" type="checkbox"> Recordarme </label>
+            <label class="form-check-label" style="color:black">
+            <input class="form-check-input" type="checkbox" required><span> Estoy de acuerdo con recibir mails de parte de esta página </span></label>
+            <div class="valid-feedback">Ok</div>
+            <div class="invalid-feedback"> Tienes que estar de acuerdo con esto </div>
         </div>
         <div class="row col-md-12">
             <textarea type="text" id="comments" name="comment" placeholder="Dejanos un mensaje!"></textarea>
         </div>
         <div class="row col-md-12">
-            <button type="submit" class="btn btn-primary mb-2">Enviar </button>
+            <button type="submit" class="btn btn-primary mb-2"> Enviar </button>
         </div>
     </form>
     </div>
